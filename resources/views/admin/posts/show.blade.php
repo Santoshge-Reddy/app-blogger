@@ -15,6 +15,11 @@
                     </div>
 
                     <div class="card-body">
+
+                        <img src="data:image/png;base64,{{ $post->image }}" style="  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;">
                         <p>{!! $post->body !!}</p>
 
                         <p><strong>Category: </strong>{{ $post->category->name }}</p>

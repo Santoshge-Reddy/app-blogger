@@ -29,14 +29,30 @@ The above copyright notice and this permission notice shall be included in all c
   <!-- CSS Files -->
   <link href="{{asset('guest/css/material-kit.css?v=2.0.7')}}" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="{{asset('guest/demo/demo.cs')}}s" rel="stylesheet" />
+  <!-- <link href="{{asset('guest/demo/demo.cs')}}s" rel="stylesheet" /> -->
+
+  <style type="text/css">
+    .section-text p{
+          font-size: 1.188rem;
+    line-height: 1.5em;
+    color: #555;
+    margin-bottom: 30px;
+    }
+    .title{
+          min-height: 32px;
+    font-size: 2rem;
+    margin: 0;
+    color: #3c4858;
+    text-decoration: none;
+    }
+  </style>
 </head>
 
 <body class="landing-page sidebar-collapse">
   <nav class="navbar navbar-primary  fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="/">
           Logo </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="sr-only">Toggle navigation</span>

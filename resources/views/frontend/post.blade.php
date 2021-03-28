@@ -7,12 +7,21 @@
 <div class="container">
     <div class="section section-text">
         <div class="row">
-            <div class="col-md-8 ml-auto mr-auto"> <h3 class="title">{{ $post->title  }}</h3>
+            <div class="col-md-8 ml-auto mr-auto"> 
+
+                <h3 class="title">{{ $post->title  }}</h3>
+
+                <img src="data:image/png;base64,{{ $post->image }}" style="  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;">
+  <br>
+  <br>
                 {!! $post->body !!}
             </div> 
         </div>
     </div>
-    <div class=" ">
+    <div class="pb-4 ">
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
                 <div class="row text-center">
@@ -49,7 +58,7 @@
                         </a>
                     </div> -->
                 </div>
-                <hr>
+                <!-- <hr> -->
                 <!-- <div class="card card-profile card-plain">
                     <div class="row text-center">
                         <div class="col-lg-10 text-lg-left">
