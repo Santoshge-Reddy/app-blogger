@@ -44,7 +44,7 @@
                                     
                 </p>
                 <p class="card-description">
-                    {{ str_limit($post->body, 200) }}
+                    {!! str_limit($post->body, 200) !!}
                     <a href="{{ url("/posts/{$post->id}") }}"> Read More </a>
                 </p>
                 <p class="author">
